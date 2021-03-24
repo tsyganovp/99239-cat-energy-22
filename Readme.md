@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Павел Цыганов](https://up.htmlacademy.ru/adaptive/22/user/99239).
-* Наставник: [Николай Думчев] (https://htmlacademy.ru/profile/nikopol_fw).
+* Наставник: [Николай Думчев](https://htmlacademy.ru/profile/nikopol_fw).
 
 ---
 
