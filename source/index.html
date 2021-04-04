@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="header__logo">
+      <div class="page-header__logo">
         <svg class="logo" width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
           <path d="M6.07 20.72V18.46C12.7536 17.5423 19.4937 17.0979 26.24 17.13C26.24 17.73 26.24 18.34 26.18 18.95C28.0976 18.099 30.1128 17.4877 32.18 17.13C30.8625 13.722 28.4618 10.8412 25.3471 8.93086C22.2324 7.02051 18.5764 6.1864 14.9414 6.55683C11.3064 6.92726 7.89379 8.48172 5.22852 10.9811C2.56325 13.4804 0.792969 16.7863 0.190001 20.39L6.07 20.72Z" fill="#FDC305"/>
@@ -28,14 +28,14 @@
           </svg>
       </div>
       <p class="header-logo text-logo">Cat energy</p>
-      <div class="main-nav__wrapper">
-        <ul class="main_nav">
-          <li class="main-nav__item main-nav__item--current">Главная</li>
-          <li class="main-nav__item">Каталог продукции</li>
-          <li class="main-nav__item">Подбор программы</li>
+      <nav class="main-nav wrapper">
+        <ul class="main-nav__list nav-list">
+          <li class="nav-list__item nav-list__item--current">Главная</li>
+          <li class="nav-list__item">Каталог продукции</li>
+          <li class="nav-list__item">Подбор программы</li>
         </ul>
-      </div>
-      <button class="main-nav__toogle"><span class="vissualy-hidden">Открыть меню</span></button>
+        <button class="main-nav__toogle"><span class="vissualy-hidden">Открыть меню</span></button>
+      </nav>
     </header>
     <section class="main-promo">
       <h1 class="main-promo__header">Функциональное питание для котов</h1>
@@ -102,17 +102,17 @@
     </section>
     <section class="example">
       <h2 class="example__header">Живой пример</h2>
-      <div class="example_text-block">
-        <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
-        <p class="example__promo-text">5 КГ<span>снижение веса</span></p>
-        <p class="example__promo-text">60 ДНЕЙ<span>затрачено времени</span></p>
-        <p class="example__price-text">Затраты на питание: 15 000 РУБ. </p>
+      <div class="example__text-block example-text-block">
+        <p class="example-text-block__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
+        <p class="example-text-block__promo-text">5 КГ<span>снижение веса</span></p>
+        <p class="example-text-block__promo-text">60 ДНЕЙ<span>затрачено времени</span></p>
+        <p class="example-text-block__price-text">Затраты на питание: 15 000 РУБ. </p>
       </div>
       <div class="example-slider">
-        <img src="img/example/before-mobile.jpg" alt="Картинка для сравнения результатов" class="slider__image">
+        <img src="img/example/before-mobile.jpg" alt="Картинка для сравнения результатов" class="example-slider__image">
         <label for="example-range"><span class="visually-hidden">Ползунок сравнения</span></label>
         <span>Было</span>
-        <input class="slider__range" type="range" id="example-range">
+        <input class="example-slider__range" type="range" id="example-range">
         <span>Стало</span>
       </div>
     </section>
@@ -124,7 +124,7 @@
       ></iframe>
       <div class="wrapper map-wrapper">
         <span class="map__pointer"></span>
-        <div class="map__contacts">
+        <div class="map__contacts contacts">
           <h2 class="contacts__header visually-hidden">Контакты</h2>
           <p class="contacts__welcome-text">Приглашаем к сотрудничеству дилеров!
           <address class="contacts__adress">
@@ -136,8 +136,8 @@
       </div>
     </section>
     <footer class="page-footer">
-      <p class="footer-logo text-logo">Cat energy</p>
-      <ul class="footer__socio-block">
+      <p class="page-footer__logo text-logo">Cat energy</p>
+      <ul class="page-footer__socio-block socio-block">
         <li class="socio-block__item">
           <a href="#">
             <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
