@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+    <meta charset="utf-8">
+    <title>Подбор программы</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__logo">
+        <img src="img/header/mobile-logo.svg" alt="Логотип" />
+      </div>
+      <nav class="main-nav wrapper">
+        <ul class="main-nav__list nav-list">
+          <li class="main-nav__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__item main-nav__item--current">
+            <a href="#gi">Каталог продукции</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="form.html">Подбор программы</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="main-nav__toogle"
+          aria-label="Открыть меню"
+        ></button>
+      </nav>
+    </header>
+
+    <main class="form">
+      <h1 class="form__header">Подбор программы</h1>
+      <p class="form__text">Заполните анкету, и мы подберем
+        программу питания для вашего кота</p>
+      <section class="about-cat">
+
+        <div class="about-cat__main">
+          <label for="id-cat-name">Имя<span>*</span></label>
+          <input class="cat-name" type="text" name="cat-name" id="id-cat-name">
+          <label for="id-cat-weight">Вес (кг):<span>*</span></label>
+          <input class="cat-weight" type="text" name="cat-weight" id="id-cat-weight">
+          <label for="id-cat-age">Возраст (лет):<span>*</span></label>
+          <input class="cat-age" type="text" name="cat-age" id="id-cat-age">
+        </div>
+
+        <ul class="about-cat__needs">
+          <li class="needs__item">
+            <input class="item__checkbox" type="radio" name="needs-slim" id="id-needs-slim" checked>
+            <label for="id-needs-slim">Похудение</label>
+          </li>
+          <li class="needs__item">
+            <input class="item__checkbox" type="radio" name="needs-fat" id="id-needs-fat">
+            <label for="id-needs-fat">Набор массы</label>
+          </li>
+          <li class="needs__item">
+            <input class="item__checkbox" type="radio" name="needs-dont-know" id="id-needs-dont-know" checked>
+            <label for="id-needs-dont-know">Не знаю (Нужен ваш совет)</label>
+          </li>
+        </ul>
+      </section>
+      <section class="cat-owner">
+        <h2 class="cat-owner__text">Контактные данные (владельца кота)</h2>
+
+      </section>
+
+    </main>
+    </body>
