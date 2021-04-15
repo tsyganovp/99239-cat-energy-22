@@ -1,0 +1,11 @@
+.example-slider {
+  .example-slider__controls {
+    .slider-controls__before-button,
+    .slider-controls__after-button {
+      color:$slider-control-buton-text-color;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
