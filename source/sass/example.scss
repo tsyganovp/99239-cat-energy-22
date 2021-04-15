@@ -9,6 +9,7 @@
     line-height: 40px;
     font-weight: 400;
   }
+
   .example-text-block {
     .example-text-block__description {
       font-family: $example-text-font;
@@ -16,6 +17,7 @@
       font-size: 14px;
       line-height: 18px;
     }
+
     .example-text-block__promo-text {
       color: $example-text-block-promo-text-color;
       font-size: 24px;
@@ -28,6 +30,7 @@
         line-height: 12px;
       }
     }
+
     .example-text-block__price-text {
       color: $example-text-block-price-text-color;
       font-size: 14px;
