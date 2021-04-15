@@ -1,0 +1,32 @@
+.articles {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 27px;
+
+  .program-article {
+    margin-bottom: 20px;
+    padding: 21px 33px 80px 20px;
+    background-color: #f2f2f2;
+
+    .program-article__header {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 37px;
+      text-transform: uppercase;
+    }
+
+    .program-article__text {
+      font-family: $articles-text-font;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .program-article__link {
+      font-size: 16px;
+      line-height: 16px;
+      color: $articles-link-color;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
