@@ -1,8 +1,10 @@
 .page-body {
+  margin: 0 auto;
+  max-width: 320px;
   font-family: $main-font;
-font-weight: 500;
-font-size: 20px;
-line-height: 20px;
-text-transform: uppercase;
-color: $mobile-tablet-header-text-color;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $mobile-tablet-header-text-color;
 }
