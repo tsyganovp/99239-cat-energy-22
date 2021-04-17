@@ -32,12 +32,12 @@
       </nav>
     </header>
 
-    <main class="form">
-      <h1 class="form__header">Подбор программы</h1>
-      <p class="form__text">
-        Заполните анкету, и мы подберем программу питания для вашего кота
-      </p>
+    <main class="page-main main-form">
       <form class="form">
+        <h1 class="form__header">Подбор программы</h1>
+        <p class="form__text">
+          Заполните анкету, и мы подберем программу питания для вашего кота
+        </p>
         <fieldset class="about-cat" name="about-cat">
           <div class="about-cat__main">
             <label for="id-cat-name">Имя<span>*</span></label>
@@ -46,6 +46,7 @@
               type="text"
               name="cat-name"
               id="id-cat-name"
+              placeholder="Барсик"
             />
             <label for="id-cat-weight">Вес (кг):<span>*</span></label>
             <input
@@ -53,9 +54,10 @@
               type="text"
               name="cat-weight"
               id="id-cat-weight"
+              placeholder="7"
             />
             <label for="id-cat-age">Возраст (лет):<span>*</span></label>
-            <input class="cat-age" type="text" name="cat-age" id="id-cat-age" />
+            <input class="cat-age" type="text" name="cat-age" id="id-cat-age" placeholder="7" />
           </div>
 
           <ul class="about-cat__needs needs">
@@ -66,6 +68,7 @@
                 name="needs-radio"
                 id="id-needs-slim"
                 value="needs-slim"
+
                 checked
               />
               <label for="id-needs-slim">Похудение</label>
