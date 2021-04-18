@@ -10,20 +10,18 @@
 
     .program-article__header {
       font-weight: 400;
-      font-size: 24px;
-      line-height: 37px;
+      line-height: 37/24;
+
       text-transform: uppercase;
     }
 
     .program-article__text {
       font-family: $articles-text-font;
-      font-size: 14px;
-      line-height: 18px;
+      line-height: 18/14;
     }
 
     .program-article__link {
-      font-size: 16px;
-      line-height: 16px;
+      line-height: 16/16;
       color: $articles-link-color;
       text-transform: uppercase;
       text-decoration: none;

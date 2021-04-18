@@ -5,8 +5,8 @@
   .example__header {
     margin: 0;
     color: $example-header-color;
-    font-size: 36px;
-    line-height: 40px;
+
+    line-height: 40/36;
     font-weight: 400;
   }
 
@@ -14,27 +14,25 @@
     .example-text-block__description {
       font-family: $example-text-font;
       color: $example-text-color;
-      font-size: 14px;
-      line-height: 18px;
+      line-height: 18/14;
+
     }
 
     .example-text-block__promo-text {
       color: $example-text-block-promo-text-color;
-      font-size: 24px;
-      line-height: 24px;
 
-      dd {
+      line-height: 24/24;
+
+      .example-promo-text__description {
         font-family: $example-text-block-promo-text-dd-font;
         color: $example-text-block-promo-text-dd-color;
-        font-size: 12px;
-        line-height: 12px;
+        line-height: 12/12;
       }
     }
 
     .example-text-block__price-text {
       color: $example-text-block-price-text-color;
-      font-size: 14px;
-      line-height: 20px;
+      line-height: 20/14;
       text-align: center;
       font-weight: bold;
     }
