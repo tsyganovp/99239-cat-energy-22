@@ -2,29 +2,5 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 27px;
-
-  .program-article {
-    margin-bottom: 20px;
-    padding: 21px 33px 80px 20px;
-    background-color: #f2f2f2;
-
-    .program-article__header {
-      font-weight: 400;
-      line-height: 37/24;
-
-      text-transform: uppercase;
-    }
-
-    .program-article__text {
-      font-family: $articles-text-font;
-      line-height: 18/14;
-    }
-
-    .program-article__link {
-      line-height: 16/16;
-      color: $articles-link-color;
-      text-transform: uppercase;
-      text-decoration: none;
-    }
-  }
 }
+

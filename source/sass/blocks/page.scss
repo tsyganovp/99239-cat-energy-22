@@ -1,4 +1,15 @@
-.page-footer {
+.page__header {
+  margin: 0 auto;
+}
+.page-body {
+  font-family: $main-font;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 20/20;
+  color: $mobile-tablet-header-text-color;
+}
+
+.page__footer {
   padding-top: 40px;
 
   .footer-logo {
