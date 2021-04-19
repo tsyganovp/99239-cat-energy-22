@@ -3,8 +3,9 @@
   padding: 27px 20px 0 20px;
 
   .example__header {
+    font-family: $ff-oswald;
     margin: 0;
-    color: $example-header-color;
+    color: $c-black;
 
     line-height: 40/36;
     font-weight: 400;
@@ -12,25 +13,25 @@
 }
 .example-text-block {
   .example-text-block__description {
-    font-family: $example-text-font;
-    color: $example-text-color;
-    line-height: 18/14;
+    color: $special_dark-grey;
+    line-height: 18 / 14;
   }
 }
 .example-text-block__promo-text {
-  color: $example-text-block-promo-text-color;
-  line-height: 24/24;
-
-  .example-promo-text__description {
-    font-family: $example-text-block-promo-text-dd-font;
-    color: $example-text-block-promo-text-dd-color;
-    line-height: 12/12;
-  }
+  font-family: $ff-oswald;
+  color: $c-black;
+  line-height: 24 / 24;
+}
+.example-promo-text__description {
+  font-family: $main-font;
+  color: $special_dark-grey;
+  line-height: 12 / 12;
 }
 
 .example-text-block__price-text {
-  color: $example-text-block-price-text-color;
-  line-height: 20/14;
+  font-family: $ff-oswald;
+  color: $c-black;
+  line-height: 20 / 14;
   text-align: center;
-  font-weight: bold;
+  text-transform: uppercase;
 }

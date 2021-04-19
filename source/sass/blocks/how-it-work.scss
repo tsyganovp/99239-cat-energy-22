@@ -5,7 +5,8 @@
   .how-it-work__header {
     margin: 0;
     margin-bottom: 40px;
-    color: $how-it-work-header-text-color;
+    font-family: $ff-oswald;
+    color: $c-black;
     line-height: 40/36;
 
     font-weight: 400;
@@ -20,6 +21,7 @@
 }
 .work-item {
   margin-bottom: 20px;
+  min-height: 60px;
 
   &:nth-child(1) {
     background-image: url("../img/how-it-work/leaf.svg");
@@ -44,8 +46,7 @@
   .work-item__text {
     margin: 0;
     padding-left: 80px;
-    font-family: $work-item-text-font;
-    color: $work-item-text-color;
-    line-height: 18/14;
+    color: $special_dark-grey;
+    line-height: 18 / 14;
   }
 }

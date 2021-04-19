@@ -1,8 +1,9 @@
 .example-slider__controls {
   .slider-controls__before-button,
   .slider-controls__after-button {
-    color: $slider-control-buton-text-color;
-    font-weight: bold;
-    line-height: 20/16;
+    font-family: $ff-oswald;
+    text-transform: uppercase;
+    color: $c-black;
+    line-height: 20 / 16;
   }
 }

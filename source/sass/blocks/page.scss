@@ -1,3 +1,6 @@
+.page {
+  font-family: $main-font;
+}
 .page__header {
   margin: 0 auto;
 }
@@ -6,7 +9,7 @@
   margin: 0 auto;
   font-weight: 400;
   line-height: 20/20;
-  color: $mobile-tablet-header-text-color;
+  color: $c-black;
 }
 
 .page__footer {
@@ -27,8 +30,8 @@
 
 .academy-block {
   .academy-block__link {
-    font-family: $academy-footer-text-font;
-    color: $academy-footer-text-color;
-    line-height: 18/16;
+    font-family: $main-font;
+    color:$special_dark-grey;
+    line-height: 18 / 16;
   }
 }

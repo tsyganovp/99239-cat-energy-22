@@ -1,5 +1,6 @@
 .main-promo {
   padding: 27px 20px 22px 20px;
+  background-color: green;
   background-image: url("../img/main-promo/background-mobile.jpg");
   background-repeat: no-repeat;
 
@@ -7,7 +8,7 @@
     margin: 0;
     padding-bottom: 27px;
     text-align: center;
-    color: $mobile-promo-text-color;
+    color: $c-white;
     font-weight: 400;
     line-height: 36/36;
   }
@@ -16,8 +17,8 @@
     margin: 0;
     padding-bottom: 29px;
     text-align: center;
-    color: $mobile-promo-text-color;
-    line-height: 14/14;
+    color: $c-white;
+    line-height: 14 / 14;
     text-transform: uppercase;
   }
 
@@ -25,9 +26,9 @@
     display: block;
     padding: 7px 44px 7px 44px;
     background-color: $button-background-color;
-    color: $button-text-color;
+    color: $c-white;
     text-decoration: none;
-    line-height: 18/14;
+    line-height: 18 / 14;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
