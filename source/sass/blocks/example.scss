@@ -11,17 +11,20 @@
     font-weight: 400;
   }
 }
+
 .example-text-block {
   .example-text-block__description {
     color: $special_dark-grey;
     line-height: 18 / 14;
   }
 }
+
 .example-text-block__promo-text {
   font-family: $ff-oswald;
   color: $c-black;
   line-height: 24 / 24;
 }
+
 .example-promo-text__description {
   font-family: $main-font;
   color: $special_dark-grey;
