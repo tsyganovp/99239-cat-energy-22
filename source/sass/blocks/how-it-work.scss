@@ -1,5 +1,4 @@
 .how-it-work {
-
   line-height: 20/20;
   padding: 0 0 42px 0;
 
@@ -18,36 +17,35 @@
     padding-right: 24px;
     list-style: none;
   }
+}
+.work-item {
+  margin-bottom: 20px;
 
-  .work-item {
-    margin-bottom: 20px;
+  &:nth-child(1) {
+    background-image: url("../img/how-it-work/leaf.svg");
+    background-repeat: no-repeat;
+  }
 
-    &:nth-child(1) {
-      background-image: url("../img/how-it-work/leaf.svg");
-      background-repeat: no-repeat;
-    }
+  &:nth-child(2) {
+    background-image: url("../img/how-it-work/tub.svg");
+    background-repeat: no-repeat;
+  }
 
-    &:nth-child(2) {
-      background-image: url("../img/how-it-work/tub.svg");
-      background-repeat: no-repeat;
-    }
+  &:nth-child(3) {
+    background-image: url("../img/how-it-work/eat.svg");
+    background-repeat: no-repeat;
+  }
 
-    &:nth-child(3) {
-      background-image: url("../img/how-it-work/eat.svg");
-      background-repeat: no-repeat;
-    }
+  &:nth-child(4) {
+    background-image: url("../img/how-it-work/alarm.svg");
+    background-repeat: no-repeat;
+  }
 
-    &:nth-child(4) {
-      background-image: url("../img/how-it-work/alarm.svg");
-      background-repeat: no-repeat;
-    }
-
-    .work-item__text {
-      margin: 0;
-      padding-left: 80px;
-      font-family: $work-item-text-font;
-      color: $work-item-text-color;
-      line-height: 18/14;
-    }
+  .work-item__text {
+    margin: 0;
+    padding-left: 80px;
+    font-family: $work-item-text-font;
+    color: $work-item-text-color;
+    line-height: 18/14;
   }
 }

@@ -1,15 +1,13 @@
-.map {
-  .map__contacts {
-    .contacts__welcome-text {
-      line-height: 18/16;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
+.map__contacts {
+  .contacts__welcome-text {
+    line-height: 18/16;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-    .contacts__address {
-      font-family: $contacts-address-font;
-      color: $contacts-address-color;
-      line-height: 20/14;
-    }
+  .contacts__address {
+    font-family: $contacts-address-font;
+    color: $contacts-address-color;
+    line-height: 20/14;
   }
 }
