@@ -14,7 +14,7 @@
 
 .example-text-block {
   .example-text-block__description {
-    color: $special_dark-grey;
+    color: $c-dark-grey;
     line-height: (18 / 14);
   }
 }
@@ -26,8 +26,8 @@
 }
 
 .example-text-block__description {
-  font-family: $main-font;
-  color: $special_dark-grey;
+  font-family: $ff-arial;
+  color: $c-dark-grey;
   line-height: (12 / 12);
 }
 
