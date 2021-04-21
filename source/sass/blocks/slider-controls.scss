@@ -1,0 +1,10 @@
+.slider-controls {
+
+  .slider-controls__before-button,
+  .slider-controls__after-button {
+    font-family: $ff-oswald;
+    text-transform: uppercase;
+    color: $c-black;
+    line-height: (20 / 16);
+  }
+}

@@ -17,7 +17,7 @@
 .page__footer {
   padding-top: 40px;
 
-  .footer-logo {
+  .page-footer__logo {
     display: block;
     margin: 0 auto;
   }
@@ -28,13 +28,12 @@
     list-style: none;
     display: flex;
   }
-  .page-footer__academy-block
-  {
-    .academy-block__link {
-      font-family: $ff-arial;
-      color: $c-dark-grey;
-      line-height: (18 / 16);
-    }
-  }
 }
 
+.page-footer__academy-block {
+  .academy-block__link {
+    font-family: $ff-arial;
+    color: $c-dark-grey;
+    line-height: (18 / 16);
+  }
+}

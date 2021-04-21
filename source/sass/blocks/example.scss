@@ -11,30 +11,3 @@
     font-weight: 400;
   }
 }
-
-.example-text-block {
-  .example-text-block__description {
-    color: $c-dark-grey;
-    line-height: (18 / 14);
-  }
-}
-
-.example-text-block__promo-text {
-  font-family: $ff-oswald;
-  color: $c-black;
-  line-height: 1;
-}
-
-.example-text-block__description {
-  font-family: $ff-arial;
-  color: $c-dark-grey;
-  line-height: (12 / 12);
-}
-
-.example-text-block__price-text {
-  font-family: $ff-oswald;
-  color: $c-black;
-  line-height: (20 / 14);
-  text-align: center;
-  text-transform: uppercase;
-}
