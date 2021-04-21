@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-.page-body {
+.page__body {
   font-family: $ff-arial;
   margin: 0 auto;
   font-weight: 400;
@@ -22,18 +22,19 @@
     margin: 0 auto;
   }
 
-  .page-footer__socio-block {
+  .page-footer__social-block {
     margin: 0 auto;
     padding: 0;
     list-style: none;
     display: flex;
   }
-}
-
-.academy-block {
-  .academy-block__link {
-    font-family: $ff-arial;
-    color: $c-dark-grey;
-    line-height: (18 / 16);
+  .page-footer__academy-block
+  {
+    .academy-block__link {
+      font-family: $ff-arial;
+      color: $c-dark-grey;
+      line-height: (18 / 16);
+    }
   }
 }
+
