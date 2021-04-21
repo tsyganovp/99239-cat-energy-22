@@ -1,11 +1,11 @@
 .map-contacts {
-  .contacts__welcome-text {
+  .map-contacts__welcome-text {
     font-family: $ff-oswald;
     line-height: (18 / 16);
     text-transform: uppercase;
   }
 
-  .contacts__address {
+  .map-contacts__address {
     color: $c-dark-grey;
     line-height: (20 / 14);
   }
