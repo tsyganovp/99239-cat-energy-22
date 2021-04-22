@@ -1,0 +1,23 @@
+.example-info__description {
+  line-height: (18 / 14);
+}
+
+.example-info__promo-text {
+  font-family: $ff-oswald;
+  color: $c-black;
+  line-height: 1;
+}
+
+.example-info__promo-description {
+  font-family: $ff-arial;
+  color: $c-dark-grey;
+  line-height: 1;
+}
+
+.example-info__price-text {
+  font-family: $ff-oswald;
+  color: $c-black;
+  line-height: (20 / 14);
+  text-align: center;
+  text-transform: uppercase;
+}
