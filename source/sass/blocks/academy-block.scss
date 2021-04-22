@@ -1,7 +1,5 @@
-.academy-block {
-  &__link {
-    font-family: $ff-arial;
-    color: $c-dark-grey;
-    line-height: (18 / 16);
-  }
+.academy-block__link {
+  font-family: $ff-arial;
+  color: $c-dark-grey;
+  line-height: (18 / 16);
 }

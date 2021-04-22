@@ -21,11 +21,10 @@
     background-image: url("../img/how-it-work/alarm.svg");
     background-repeat: no-repeat;
   }
-
-  .work-item__text {
-    margin: 0;
-    padding-left: 80px;
-    color: $c-dark-grey;
-    line-height: (18 / 14);
-  }
+}
+.work-item__text {
+  margin: 0;
+  padding-left: 80px;
+  color: $c-dark-grey;
+  line-height: (18 / 14);
 }
