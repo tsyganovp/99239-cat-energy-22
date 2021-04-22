@@ -7,9 +7,9 @@
 }
 
 .page__body {
-  font-family: $ff-arial;
   margin: 0 auto;
+  font-family: $ff-arial;
+  color: $c-dark-grey;
   font-weight: 400;
-  line-height: (20 / 20);
-  color: $c-black;
+  line-height: (18 / 14);
 }
