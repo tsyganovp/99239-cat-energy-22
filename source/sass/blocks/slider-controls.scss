@@ -1,6 +1,6 @@
 .slider-controls {
-  .slider-controls__before-button,
-  .slider-controls__after-button {
+  &__before-button,
+  &__after-button {
     font-family: $ff-oswald;
     text-transform: uppercase;
     color: $c-black;

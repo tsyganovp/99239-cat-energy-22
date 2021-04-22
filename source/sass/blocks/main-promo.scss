@@ -4,7 +4,7 @@
   background-image: url("../img/main-promo/background-mobile.jpg");
   background-repeat: no-repeat;
 
-  .main-promo__header {
+  &__header {
     font-family: $ff-oswald;
     margin: 0;
     padding-bottom: 27px;
@@ -14,7 +14,7 @@
     line-height: 1;
   }
 
-  .main-promo__text {
+  &__text {
     font-family: $ff-oswald;
     margin: 0;
     padding-bottom: 29px;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
   }
 
-  .main-promo__promo-link {
+  &__promo-link {
     display: block;
     padding: 7px 44px 7px 44px;
     background-color: $c-light-green;

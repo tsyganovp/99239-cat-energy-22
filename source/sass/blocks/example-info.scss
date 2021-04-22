@@ -1,5 +1,5 @@
 .example-info {
-  .example-info__description {
+  &__description {
     color: $c-dark-grey;
     line-height: (18 / 14);
   }
