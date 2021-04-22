@@ -1,7 +1,7 @@
 .addition__text {
   font-weight: 400;
   line-height: (26 / 24);
-  color: black;
+  color: $c-black;
   font-size: 24px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .addition__button {
-  background: #68B738;
+  background: #68b738;
   font-family: 16px;
   line-height: (20 / 16);
   color: $c-white;
