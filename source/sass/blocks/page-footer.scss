@@ -1,24 +1,15 @@
 .page-footer {
   padding-top: 40px;
-
-  .footer-logo {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .page-footer__socio-block {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
 }
 
-.academy-block {
-  .academy-block__link {
-    font-family: $academy-footer-text-font;
-    color: $academy-footer-text-color;
-    font-size: 16px;
-    line-height: 18px;
-  }
+.page-footer__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.page-footer__social-block {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
