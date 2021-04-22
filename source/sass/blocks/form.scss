@@ -1,3 +1,15 @@
+.form {
+  font-family: $ff-oswald;
+  font-weight: 400;
+}
 .form__header {
+  font-size: 36px;
+  color: $c-black;
   line-height: 1;
+}
+
+.form__text {
+  color: $c-black;
+  line-height: (18 / 14);
+  text-transform: uppercase;
 }
