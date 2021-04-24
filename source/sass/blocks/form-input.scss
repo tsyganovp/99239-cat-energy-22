@@ -1,0 +1,9 @@
+.form-input {
+  &::placeholder {
+    font-size: 16px;
+    font-family: $ff-oswald;
+    line-height: (18 / 16);
+    color: $c-dark-grey;
+    text-transform: uppercase;
+  }
+}

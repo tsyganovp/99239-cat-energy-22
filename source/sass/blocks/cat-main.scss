@@ -1,16 +1,4 @@
 .cat-main__label {
   line-height: (18 / 16);
   color: $c-dark-grey;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-.cat-main__input {
-  &::placeholder {
-    font-size: 16px;
-    font-family: $ff-oswald;
-    line-height: (18 / 16);
-    color: $c-dark-grey;
-    text-transform: uppercase;
-  }
 }
