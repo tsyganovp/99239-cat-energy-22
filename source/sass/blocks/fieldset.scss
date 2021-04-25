@@ -1,11 +1,17 @@
-.cat-owner__comment-text {
-  font-size: 24px;
+.fieldset__label {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: (18 / 16);
+}
+
+.fieldset__header {
   font-weight: 400;
   line-height: (26 / 24);
   color: black;
+  font-size: 24px;
 }
 
-.cat-owner__textarea {
+.fieldset__input {
   font-size: 16px;
   font-family: $ff-oswald;
   line-height: (18 / 16);

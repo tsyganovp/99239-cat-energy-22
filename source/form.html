@@ -14,14 +14,14 @@
     </div>
     <nav class="main-nav wrapper">
       <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a href="index.html">Главная</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="catalog.html">Каталог продукции</a>
-        </li>
         <li class="main-nav__item main-nav__item--current">
-          <a href="form.html">Подбор программы</a>
+          <a class="link" href="#">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="link" href="catalog.html">Каталог продукции</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="link" href="form.html">Подбор программы</a>
         </li>
       </ul>
       <button type="button" class="main-nav__toogle" aria-label="Открыть меню"></button>
@@ -35,72 +35,72 @@
         Заполните анкету, и мы подберем программу питания для вашего кота
       </p>
 
-      <fieldset class="about-cat" name="about-cat">
+      <fieldset  class="fieldset about-cat" name="about-cat">
         <div class="cat-main about-cat__main">
-          <label for="id-cat-name" class="cat-main__label form-label">Имя<span>*</span></label>
-          <input class="cat-main__input form-input" type="text" name="cat-name" id="id-cat-name" placeholder="Барсик" />
-          <label for="id-cat-weight" class="cat-main__label form-label">Вес (кг):<span>*</span></label>
-          <input class="cat-main__input form-input" type="text" name="cat-weight" id="id-cat-weight" placeholder="7" />
-          <label for="id-cat-age" class="cat-main__label form-label">Возраст (лет):<span>*</span></label>
-          <input class="cat-main__input form-input" type="text" name="cat-age" id="id-cat-age" placeholder="7" />
+          <label for="id-cat-name" class="fieldset__label cat-main__label form-label">Имя<span>*</span></label>
+          <input class="cat-main__input fieldset__input" type="text" name="cat-name" id="id-cat-name" placeholder="Барсик" />
+          <label for="id-cat-weight" class="fieldset__label cat-main__label form-label">Вес (кг):<span>*</span></label>
+          <input class="cat-main__input fieldset__input" type="text" name="cat-weight" id="id-cat-weight" placeholder="7" />
+          <label for="id-cat-age" class="fieldset__label cat-main__label form-label">Возраст (лет):<span>*</span></label>
+          <input class="cat-main__input fieldset__input" type="text" name="cat-age" id="id-cat-age" placeholder="7" />
         </div>
 
         <ul class="cat-needs about-cat__needs">
           <li class="cat-needs__item cat-needs-item">
             <input class="cat-needs-item__radio-checkbox radio-checkbox" type="radio" name="needs-radio"
               id="id-needs-slim" value="needs-slim" checked />
-            <label for="id-needs-slim" class="cat-needs__label form-label">Похудение</label>
+            <label for="id-needs-slim" class="fieldset__label cat-needs__label form-label">Похудение</label>
           </li>
           <li class="cat-needs__item cat-needs-item">
             <input class="cat-needs-item__radio-checkbox radio-checkbox" type="radio" name="needs-radio"
               id="id-needs-fat" value="needs-fat" />
-            <label for="id-needs-fat" class="cat-needs__label form-label">Набор массы</label>
+            <label for="id-needs-fat" class="fieldset__label cat-needs__label form-label">Набор массы</label>
           </li>
           <li class="cat-needs__item cat-needs-item">
             <input class="cat-needs-item__radio-checkbox radio-checkbox" type="radio" name="needs-radio"
               id="id-needs-dont-know" value="needs-dontknow" checked />
-            <label for="id-needs-dont-know" class="cat-needs__label form-label">Не знаю (Нужен ваш совет)</label>
+            <label for="id-needs-dont-know" class="fieldset__label cat-needs__label form-label">Не знаю (Нужен ваш совет)</label>
           </li>
         </ul>
       </fieldset>
 
-      <fieldset class="cat-owner" name="cat-owner">
-        <h2 class="cat-owner__text">Контактные данные (владельца кота)</h2>
-        <label for="id-cat-owner-email" class="cat-owner__label form-label">E-mail:<span>*</span></label>
-        <input class="cat-owner__email cat-owner__input form-input" type="email" name="email" id="id-cat-owner-email"
+      <fieldset class="fieldset cat-owner" name="cat-owner">
+        <h2 class="fieldset__header cat-owner__text">Контактные данные (владельца кота)</h2>
+        <label for="id-cat-owner-email" class="fieldset__label cat-owner__label form-label">E-mail:<span>*</span></label>
+        <input class="cat-owner__email cat-owner__input fieldset__input" type="email" name="email" id="id-cat-owner-email"
           placeholder="kuklachev@gmail.com" />
-        <label for="id-cat-owner-phone" class="cat-owner__label form-label">Телефон:<span>*</span></label>
-        <input class="cat-owner__phone cat-owner__input form-input" type="tel" name="phone" id="id-cat-owner-phone"
+        <label for="id-cat-owner-phone" class="fieldset__label cat-owner__label form-label">Телефон:<span>*</span></label>
+        <input class="cat-owner__phone cat-owner__input fieldset__input" type="tel" name="phone" id="id-cat-owner-phone"
           placeholder="8 (960) 900-60-90" />
 
         <p class="cat-owner__comment-text">Комментарий</p>
-        <label for="id-comment__textarea" class="cat-owner__comment-label form-label"></label>
+        <label for="id-comment__textarea" class="fieldset__labelcat-owner__comment-label form-label"></label>
         <textarea class="cat-owner__textarea" name="comment" id="id-comment__textarea" cols="30" rows="10"
           placeholder="Расскажите обо всех повадках кота"></textarea>
       </fieldset>
 
-      <fieldset class="addition" name="addition">
-        <p class="addition__text">Дополнительно</p>
+      <fieldset class="fieldset addition" name="addition">
+        <h2 class="fieldset__header addition__text">Дополнительно</h2>
         <ul class="addition__list">
           <li class="addition__item addition-item">
             <input type="checkbox" class="checkbox addition-item__checkbox" id="id-addtition-nonsugar"
               name="addtition__checkbox" value="non-sugar" checked />
-            <label for="id-addtition-nonsugar" class="addition__label form-label">Сахарозаменитель</label>
+            <label for="id-addtition-nonsugar" class="fieldset__label addition__label form-label">Сахарозаменитель</label>
           </li>
           <li class="addition__item addition-item">
             <input type="checkbox" class="checkbox addition-item__checkbox" id="id-addtition-water"
               name="addtition__checkbox" value="water" />
-            <label for="id-addtition-water" class="addition__label form-label">Питьевая вода</label>
+            <label for="id-addtition-water" class="fieldset__label addition__label form-label">Питьевая вода</label>
           </li>
           <li class="addition__item addition-item">
             <input type="checkbox" class="checkbox addition-item__checkbox" id="id-addtition-milk"
               name="addtition__checkbox" value="milk" />
-            <label for="id-addtition-milk" class="addition__label form-label">Молоко</label>
+            <label for="id-addtition-milk" class="fieldset__label addition__label form-label">Молоко</label>
           </li>
           <li class="addition__item addition-item">
             <input type="checkbox" class="checkbox addition-item__checkbox" id="id-addtition-vitamines"
               name="addtition__checkbox" value="vitamines" />
-            <label for="id-addtition-vitamines" class="addition__label form-label">Витамины</label>
+            <label for="id-addtition-vitamines" class="fieldset__label addition__label form-label">Витамины</label>
           </li>
         </ul>
 
