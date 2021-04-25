@@ -1,0 +1,18 @@
+.addition__button {
+  font-family: $ff-oswald;
+  background: #68b738;
+  font-size: 16px;
+  line-height: (20 / 16);
+  color: $c-white;
+  text-transform: uppercase;
+}
+
+.addition__warning-text {
+  font-family: $ff-arial;
+  color: $c-black;
+  line-height: (16 / 14);
+}
+
+.addition__label {
+  color: $c-black;
+}
