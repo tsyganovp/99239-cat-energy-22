@@ -12,6 +12,7 @@
 
 .articles__header {
   font-family: $ff-oswald;
+  font-size: 24px;
   color: $c-black;
   font-weight: 400;
   line-height: (37 / 24);
@@ -19,11 +20,13 @@
 }
 
 .articles__text {
+  font-size: 14px;
   line-height: (18 / 14);
 }
 
 .articles__link {
   font-family: $ff-oswald;
+  font-size: 16px;
   line-height: 1;
   color: $c-black;
   text-transform: uppercase;
