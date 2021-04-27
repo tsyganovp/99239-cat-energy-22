@@ -28,13 +28,13 @@
     </nav>
   </header>
 
-  <main class="page-main">
+  <main class="page__main page-main">
+    <h1 class="page__title">Каталог продукции</h1>
     <section class="catalog">
-      <h2 class="catalog__header">Каталог продукции</h2>
-      <ul class="catalog__list catalog__list">
-        <li class="catalog-list__item">
+      <ul class="catalog__list">
+        <li class="catalog__item">
           <img src="img/catalog/energy-pro-500-chicken.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -57,12 +57,12 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="catalog-list__item">
+        <li class="catalog__item">
           <img src="img/catalog/energy-pro-1000-chicken.jpg" width="84" height="101" alt="Товар Cat Energy Pro 500"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -85,12 +85,12 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="catalog-list__item">
+        <li class="catalog__item">
           <img src="img/catalog/energy-pro-500-fish.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -113,12 +113,12 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать">Заказать</a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="catalog-list__item">
+        <li class="catalog__item">
           <img src="img/catalog/energy-pro-1000-fish.jpg" width="84" height="101" alt="Товар Cat Energy Pro 1000"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -141,12 +141,12 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="catalog-list__item">
+        <li class="catalog__item">
           <img src="img/catalog/energy-slim-500-buckwheat.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -169,12 +169,12 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="catalog-list__item">
+        <li class="catalog__item">
           <img src="img/catalog/energy-slim-1000-buckwheat.jpg" width="84" height="101" alt="Товар Cat Energy Pro 1000"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -197,12 +197,12 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="catalog-list__item">
+        <li class="catalog__item">
           <img src="img/catalog/energy-pro-500-rice.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
-            class="catalog-block__image" />
+            class="catalog__image" />
 
           <table class="catalog-block__table catalog-table">
             <caption class="catalog-table__header">
@@ -225,16 +225,16 @@
             </tr>
           </table>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
-        <li class="catalog-list__item catalog-list__item--more">
-          <p class="catalog-more__display-text">
+        <li class="catalog__item catalog__item--more catalog-more">
+          <p class="catalog-more__product-text">
             Показать еще 100500 товаров
           </p>
-          <p class="catalog-more__more-text">
+          <p class="catalog-more__taste-text">
             На самом деле вкусов гораздо больше!
           </p>
-          <a href="#" class="catalog-more__button catalog-more__button--more" aria-label="показать все"></a>
+          <a href="#" class="button catalog-more__button catalog-more__button--more" aria-label="показать все">Показать все</a>
         </li>
       </ul>
     </section>
@@ -243,41 +243,41 @@
       <h2 class="additions__header">Дополнительные товары</h2>
 
       <ul class="additions-list">
-        <li class="additions-list__item">
-          <h3 class="additions-list__header">Сахарозаменитель</h3>
+        <li class="additions__item">
+          <h3 class="additions-list__header catalog-table__header">Сахарозаменитель</h3>
 
-          <p class="additions-list__iem">
+          <p class="additions-list__item catalog-table__item">
             1 упаковка (100 г)<span> 200 Р.</span>
           </p>
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="additions-list__item">
-          <h3 class="additions-list__header">питьевая вода</h3>
+        <li class="additions__item">
+          <h3 class="additions-list__header catalog-table__header">Питьевая вода</h3>
 
-          <p class="additions-list__iem">5 литров<span> 50 Р.</span></p>
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <p class="additions-list__item catalog-table__item">5 литров<span> 50 Р.</span></p>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="additions-list__item">
-          <h3 class="additions-list__header">молоко</h3>
+        <li class="additions__item">
+          <h3 class="additions-list__header catalog-table__header">Молоко</h3>
 
-          <p class="additions-list__iem">1 литр<span> 100 Р.</span></p>
+          <p class="additions-list__item catalog-table__item">1 литр<span> 100 Р.</span></p>
 
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="additions-list__item">
-          <h3 class="additions-list__header">витамины</h3>
+        <li class="aadditions__item">
+          <h3 class="additions-list__header catalog-table__header">Витамины</h3>
 
-          <p class="additions-list__iem">
+          <p class="additions-list__item catalog-table__item">
             1 упаковка (30 г)<span> 300 Р.</span>
           </p>
-          <a href="#" class="catalog-block__button" aria-label="Заказать"></a>
+          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
         </li>
 
-        <li class="additions-list__item additions-list__item--promo">
-          <a class="promo__link" href="#">Закажите все и получите чехол для кота в подарок!</a>
+        <li class="additions__item additions__item--promo">
+          <a class="additions__link" href="#">Закажите все и получите чехол для кота в подарок!</a>
         </li>
       </ul>
     </section>
