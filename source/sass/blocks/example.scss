@@ -1,6 +1,13 @@
 .example {
+  display: flex;
+  flex-direction: column;
   background-color: #eaeaea;
   padding: 27px 20px 0 20px;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .example__header {
@@ -10,4 +17,20 @@
   color: $c-black;
   line-height: (40 /36);
   font-weight: 400;
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+  }
+}
+.example__info {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: $desktop-width) {
+    width: 50%;
+  }
+}
+.example-info__promo-text
+{
+  width: 50%;
 }

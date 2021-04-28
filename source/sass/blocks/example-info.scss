@@ -1,5 +1,6 @@
 .example-info__description {
   line-height: (18 / 14);
+  width: 100%;
 }
 
 .example-info__promo-text {
@@ -7,6 +8,14 @@
   font-family: $ff-oswald;
   color: $c-black;
   line-height: 1;
+
+  @media (min-width:$tablet-width)
+  {
+    width: 33%;
+  }
+  @media (min-width: $desktop-width) {
+    width: 50%;
+  }
 }
 
 .example-info__promo-description {
@@ -17,6 +26,7 @@
 }
 
 .example-info__price-text {
+  justify-content: center;
   font-family: $ff-oswald;
   color: $c-black;
   line-height: (20 / 14);
