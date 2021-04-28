@@ -12,14 +12,12 @@
 
 .main-nav__list {
   margin: 0;
-
   display: block;
   padding: 0;
   list-style: none;
 
   @media (min-width: $tablet-width) {
     display: flex;
-
   }
 }
 
