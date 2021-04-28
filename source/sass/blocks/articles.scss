@@ -18,7 +18,7 @@
   padding: 21px 33px 80px 20px;
   background-color: #f2f2f2;
 
-  @media (min-width:$tablet-width) {
+  @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -87,6 +87,4 @@
   color: $c-black;
   text-transform: uppercase;
   text-decoration: none;
-
-  @media (min-width: $tablet-width) {}
 }
