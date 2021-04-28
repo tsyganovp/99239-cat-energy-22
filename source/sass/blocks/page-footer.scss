@@ -1,5 +1,11 @@
 .page-footer {
+  display: flex;
+  flex-direction: column;
   padding-top: 40px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 }
 
 .page-footer__logo {

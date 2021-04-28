@@ -9,10 +9,10 @@
   color: $c-black;
   line-height: 1;
 
-  @media (min-width:$tablet-width)
-  {
+  @media (min-width:$tablet-width) {
     width: 33%;
   }
+
   @media (min-width: $desktop-width) {
     width: 50%;
   }

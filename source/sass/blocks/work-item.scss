@@ -19,12 +19,11 @@
     background-image: url("../img/how-it-work/alarm.svg");
   }
 
-  @media (min-width: $tablet-width)
-  {
+  @media (min-width: $tablet-width) {
     width: 50%;
   }
-  @media (min-width: $desktop-width)
-  {
+
+  @media (min-width: $desktop-width) {
     width: 25%;
   }
 }

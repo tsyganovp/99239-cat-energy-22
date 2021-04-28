@@ -3,20 +3,14 @@
   flex-wrap: wrap;
 }
 
-.page-header__logo-block
-{
+.page-header__logo-block {
   width: 100%;
 
-
-  @media (min-width: $tablet-width)
-
-  {
+  @media (min-width: $tablet-width) {
     width: min-content;
-
-
   }
-  @media (min-width: $desktop-width)
-  {
+
+  @media (min-width: $desktop-width) {
     margin-right: 270px;
     margin-left: 110px;
   }
