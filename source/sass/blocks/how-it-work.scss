@@ -18,4 +18,11 @@
   padding: 0;
   padding-right: 24px;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
 }

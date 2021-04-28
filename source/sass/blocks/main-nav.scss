@@ -2,17 +2,18 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    margin: inherit;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
-    margin: inherit;
+    margin: 0;
   }
 }
 
 
 
 .main-nav__list {
+  margin: 0;
   display: block;
   padding: 0;
   list-style: none;
@@ -45,7 +46,7 @@
 
 .main-nav__toogle {
   position: absolute;
-  top: 1%;
+  top: 6%;
   right: 1%;
   width: fit-content;
   background: white;
