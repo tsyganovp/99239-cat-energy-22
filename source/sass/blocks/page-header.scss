@@ -6,14 +6,17 @@
 .page-header__logo-block
 {
   width: 100%;
+  margin-left: 20px;
 
   @media (min-width: $tablet-width)
 
   {
     width: min-content;
+    margin-left: 30px;
   }
   @media (min-width: $desktop-width)
   {
-    margin-right: 470px;
+    margin-right: 350px;
+    margin-left: 110px;
   }
 }
