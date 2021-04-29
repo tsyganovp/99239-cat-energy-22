@@ -1,12 +1,15 @@
 .main-nav {
   margin: 0 auto;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     margin: 0;
+    width: 55%;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0;
+    width: 55%;
   }
 }
 
