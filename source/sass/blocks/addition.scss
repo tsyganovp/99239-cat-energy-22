@@ -7,9 +7,26 @@
 .addition__label {
   color: $c-black;
 }
+
 .addition__list {
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-.addition__button {
-  width: 100%;
+
+.addition__item {
+
+  @media (min-width: $tablet-width) {
+    width: 50%;
+  }
+  @media (min-width: $desktop-width) {
+    width: 25%;
+  }
+
+  .addition__button {
+    width: 100%;
+  }
 }
