@@ -12,3 +12,24 @@
   color: $c-white;
   text-decoration: none;
 }
+
+.additions__item {
+
+  @media  (min-width: $tablet-width)
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media  (min-width: $desktop-width)
+  {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+.additions__button {
+  @media  (min-width: $tablet-width)
+  {
+    width: 100%;
+  }
+}
