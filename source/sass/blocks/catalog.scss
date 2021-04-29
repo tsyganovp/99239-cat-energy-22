@@ -18,6 +18,9 @@
   @media (min-width: $tablet-width) {
     width: 40%;
   }
+  @media (min-width: $desktop-width) {
+    width: 23%;
+  }
 }
 
 .catalog__item--more {
