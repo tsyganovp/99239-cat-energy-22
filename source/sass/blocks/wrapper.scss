@@ -1,8 +1,12 @@
 .wrapper {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.wrapper--main,
 .wrapper--nav {
+ margin: 0;
+}
+
+.wrapper--main {
   margin: 0;
 }

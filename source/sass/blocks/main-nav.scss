@@ -1,6 +1,5 @@
 .main-nav {
   margin: 0 auto;
-  width: 100%;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -27,8 +26,8 @@
 }
 
 .main-nav__item {
-  padding-top: 8%;
-  padding-bottom: 7%;
+  padding-top: 12%;
+  padding-bottom: 12%;
 
   @media (min-width: $tablet-width) {
     margin-left: 34px;
@@ -50,9 +49,6 @@
 }
 
 .main-nav__toogle {
-  position: absolute;
-  top: 4%;
-  right: 5%;
   width: fit-content;
   background: white;
   border: none;

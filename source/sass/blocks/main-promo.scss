@@ -1,6 +1,7 @@
 .main-promo {
-  width: 100%;
-  padding-top: 31px;
+  padding-top: 27px;
+  padding-right: 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   background-image: url("../img/main-promo/background-mobile.jpg");
@@ -34,7 +35,7 @@
   font-size: 14px;
   font-family: $ff-oswald;
   margin: 0;
-  padding-bottom: 29px;
+  padding-bottom: 32px;
   text-align: center;
   color: $c-white;
   line-height: 1;
@@ -47,15 +48,13 @@
 
 .main-promo__image {
   width: 280px;
-  margin-left: 20px;
+  margin: 0 auto;
   order: 3;
 }
 
 .main-promo__promo-link {
   order: 10;
   display: block;
-  margin-left: 7%;
-  margin-right: 7%;
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: $c-light-green;

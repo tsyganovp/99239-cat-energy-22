@@ -17,7 +17,8 @@
 }
 
 .map__welcome-text {
-  width: 40%;
+  margin: 0;
+  width: 47%;
   font-family: $ff-oswald;
   font-size: 16px;
   color: $c-special-black;
@@ -26,8 +27,10 @@
 }
 
 .map__contacts {
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-bottom: 30px;
   display: flex;
-  justify-content: space-around;
   background-color: $c-white;
 
   @media (min-width: $desktop-width) {
@@ -39,7 +42,8 @@
 }
 
 .map__contacts-address {
-  width: 40%;
+  margin: 0;
+  padding-left: 30px;
   line-height: (20 / 14);
 }
 
