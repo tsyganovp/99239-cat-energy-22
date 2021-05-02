@@ -1,9 +1,10 @@
 .main-promo {
+  width: 100%;
+  padding-top: 31px;
   display: flex;
   flex-direction: column;
-  padding: 27px 20px 22px 20px;
   background-image: url("../img/main-promo/background-mobile.jpg");
-  background-size: 100% 60%;
+  background-size: 100% 63%;
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
@@ -17,7 +18,7 @@
   font-size: 36px;
   font-family: $ff-oswald;
   margin: 0;
-  padding-bottom: 28px;
+  padding-bottom: 24px;
   text-align: center;
   color: $c-white;
   font-weight: 400;
@@ -45,13 +46,18 @@
 }
 
 .main-promo__image {
+  width: 280px;
+  margin-left: 20px;
   order: 3;
 }
 
 .main-promo__promo-link {
   order: 10;
   display: block;
-  padding: 12px 44px 12px 44px;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-top: 12px;
+  padding-bottom: 12px;
   background-color: $c-light-green;
   font-family: $ff-oswald;
   color: $c-white;
