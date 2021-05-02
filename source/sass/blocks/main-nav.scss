@@ -3,7 +3,8 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    width: 55%;
+    margin-left: 93px;
+
   }
 
   @media (min-width: $desktop-width) {
@@ -22,6 +23,7 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
+    flex-direction: row;
   }
 }
 
@@ -30,7 +32,8 @@
   padding-bottom: 12%;
 
   @media (min-width: $tablet-width) {
-    margin-left: 34px;
+    padding: 0;
+    margin-right: 29px;
   }
 
   @media (min-width: $desktop-width) {
@@ -46,8 +49,12 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
-}
 
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: (24 / 18);
+}
+}
 .main-nav__toogle {
   width: fit-content;
   background: white;
