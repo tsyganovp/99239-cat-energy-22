@@ -1,18 +1,23 @@
 .map {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 11px;
+  margin-bottom: 0;
   position: relative;
   display: flex;
-  height: 362px;
+  height: 462px;
 }
 
 .map__frame {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 362px;
+  height: 462px;
   border: none;
 }
 
 .map__welcome-text {
+  width: 40%;
   font-family: $ff-oswald;
   font-size: 16px;
   color: $c-special-black;
@@ -34,13 +39,14 @@
 }
 
 .map__contacts-address {
+  width: 40%;
   line-height: (20 / 14);
 }
 
 .map__pointer {
   position: absolute;
-  top: 180px;
-  left: 50px;
+  top: 243px;
+  left: 134px;
   z-index: 1;
   width: 55px;
   height: 55px;

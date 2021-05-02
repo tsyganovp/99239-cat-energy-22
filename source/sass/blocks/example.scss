@@ -1,9 +1,10 @@
 .example {
   margin-top: 0;
+  padding: 50px 20px 0 20px;
   display: flex;
   flex-direction: column;
   background-color: #eaeaea;
-  padding: 46px 0px 0px 0px;
+
 
   @media (min-width: $desktop-width) {
     flex-direction: row;
@@ -31,8 +32,4 @@
   @media (min-width: $desktop-width) {
     width: 50%;
   }
-}
-
-.example-info__promo-text {
-  width: 50%;
 }
