@@ -9,7 +9,7 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    width: 55%;
+    width: 70%;
   }
 }
 
@@ -24,6 +24,9 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: row;
+  }
+  @media (min-width: $desktop-width) {
+    justify-content: flex-end;
   }
 }
 
@@ -53,8 +56,13 @@
   @media (min-width: $tablet-width) {
     font-size: 18px;
     line-height: (24 / 18);
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: flex-end;
+  }
 }
-}
+
 .main-nav__toogle {
   width: fit-content;
   background: white;

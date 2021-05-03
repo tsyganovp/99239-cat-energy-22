@@ -16,6 +16,10 @@
     padding-right: 90px;
     padding-bottom: 504px;
   }
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    background: linear-gradient(90deg, $c-white 50%, $c-light-green 50%);
+  }
 }
 
 .main-promo__header {

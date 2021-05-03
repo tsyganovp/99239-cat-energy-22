@@ -6,13 +6,20 @@
   @media (min-width: $tablet-width) {
     align-items: center;
     padding-left: 13px;
-
     padding-top: 31px;
   }
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    background: linear-gradient(90deg, $c-white 50%, $c-light-green 50%);
+  }
+
 }
 
 .page-header__logo {
   width: 85%;
+  @media (min-width: $desktop-width) {
+    width: 20%;
+  }
 }
 .page-header__logo-block {
   display: flex;
@@ -28,7 +35,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 270px;
+    margin: 0;
+    margin-top: 30px;
     margin-left: 110px;
   }
 }
