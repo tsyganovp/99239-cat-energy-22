@@ -3,6 +3,12 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    padding-top: 6px;
+    padding-bottom: 67px;
+  }
 }
 
 .slider-controls__before-button,
@@ -14,7 +20,17 @@
   color: $c-black;
   line-height: (20 / 16);
   border: none;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: (30 / 20);
+  }
 }
+
 .slider-controls__bar {
   width: 38%;
+
+  @media (min-width: $tablet-width) {
+    width: 60%;
+  }
 }

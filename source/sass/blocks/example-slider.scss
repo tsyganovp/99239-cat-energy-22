@@ -1,10 +1,22 @@
 .example-slider {
   padding-top: 39px;
-  padding-bottom: 34px
+  padding-bottom: 34px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    padding: 0;
+    padding-top: 81px;
+    background: linear-gradient($c-white 50%, $c-another-white 50%);
+  }
 }
 
 .example-slider__image {
   &:nth-child(2) {
     display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 600px;
+    height: 525px;
   }
 }
