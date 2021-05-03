@@ -43,6 +43,12 @@
   }
 }
 
+.articles__i--pro {
+  @media (min-width: $tablet-width) {
+    padding: 77px 62px 77px 52px;
+  }
+}
+
 .articles__header {
   margin: 0;
   padding-top: 30px;
@@ -66,9 +72,7 @@
   }
 }
 
-.articles__header--pro {
-
-}
+.articles__header--pro {}
 
 
 .articles__icon {
@@ -88,9 +92,7 @@
   }
 }
 
-.articles__icon--pro {
-
-}
+.articles__icon--pro {}
 
 .articles__image {
   @media (min-width: $tablet-width) {
@@ -125,9 +127,7 @@
   }
 }
 
-.articles-text--pro {
-
-}
+.articles-text--pro {}
 
 .articles__link {
   margin-top: 21px;
