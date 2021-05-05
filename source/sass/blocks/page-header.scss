@@ -1,7 +1,6 @@
 .page-header {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 
   @media (min-width: $tablet-width) {
     align-items: center;
@@ -16,7 +15,8 @@
 }
 
 .page-header__logo {
-  width: 85%;
+  width: 93%;
+
   @media (min-width: $desktop-width) {
     width: 20%;
   }
@@ -24,10 +24,7 @@
 .page-header__logo-block {
   display: flex;
   width: 100%;
-  margin-top: 11px;
-  padding-left: 20px;
-  padding-bottom: 11px;
-
+  padding-bottom: 12px;
   @media (min-width: $tablet-width) {
     margin: 0;
     padding: 0;
