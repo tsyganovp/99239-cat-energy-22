@@ -42,6 +42,7 @@
 
 .work-item__text {
   margin: 0;
+  padding-left: 80px;
   line-height: (18 / 14);
 
   @media (min-width: $tablet-width) {

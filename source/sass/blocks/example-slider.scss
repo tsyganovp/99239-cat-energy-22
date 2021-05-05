@@ -1,6 +1,6 @@
 .example-slider {
-  padding-top: 39px;
-  padding-bottom: 34px;
+  margin-top: 39px;
+  margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -12,6 +12,7 @@
 
 .example-slider__image {
   width: 280px;
+  height: 235px;
   &:nth-child(2) {
     display: none;
   }
