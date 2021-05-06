@@ -8,6 +8,12 @@
     margin-left: 30px;
     margin-right: 30px;
   }
+  @media  (min-width: $desktop-width)
+  {
+    margin-top: 0px;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
 }
 
 .wrapper--nav {

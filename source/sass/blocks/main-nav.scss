@@ -9,7 +9,8 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    width: 70%;
+    z-index: 2;
+
   }
 }
 
@@ -27,7 +28,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-left: 552px;
   }
 }
 
@@ -38,7 +40,7 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    margin-right: 15px;
+    margin-right: 32px;
 
     &:last-child {
       margin-right: 0px;
@@ -46,7 +48,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 37px;
+    margin: 0;
+    margin-right: 39px;
   }
 
 }
@@ -67,6 +70,7 @@
 
   @media (min-width: $desktop-width) {
     justify-content: flex-end;
+    color: $c-white;
   }
 }
 
