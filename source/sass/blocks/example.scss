@@ -13,7 +13,8 @@
   }
 
   @media (min-width: $desktop-width) {
-
+    margin-top: 10px;
+    padding-top: 0;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -35,6 +36,8 @@
 
   @media (min-width: $desktop-width) {
     width: 100%;
+    margin-left: 110px;
+    padding: 0;
   }
 }
 
@@ -51,5 +54,7 @@
 
   @media (min-width: $desktop-width) {
     width: 50%;
+    margin-left: 110px;
+    padding: 0;
   }
 }
