@@ -10,6 +10,9 @@
   @media (min-width: $tablet-width) {
     height: 592px;
   }
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+  }
 }
 
 .map__frame {
@@ -55,10 +58,13 @@
     padding-bottom: 71px;
   }
   @media (min-width: $desktop-width) {
-    width: max-content;
-    padding: 66px 76px 66px 76px;
+    justify-content: flex-start;
+    width: 570px;
+    padding: 0;
     margin-top: 95px;
     margin-left: 110px;
+    margin-right: 760px;
+    margin: 0;
   }
 }
 

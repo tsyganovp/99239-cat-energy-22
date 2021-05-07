@@ -11,8 +11,9 @@
     line-height: (24 / 16);
   }
   @media (min-width: $desktop-width) {
-    margin-top: 147px;
-    padding-right: 255px;
+    margin-top:153px;
+    margin-bottom: 45px;
+    padding-right: 200px;
   }
 }
 
@@ -39,7 +40,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 50%;
+    height: fit-content;
+    width: 26%;
+    margin-right:41px;
   }
 }
 
@@ -77,8 +80,19 @@
     font-size: 20px;
     line-height: 1;
   }
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    width: 100%;
+    margin-top: 60px;
+    align-items: flex-start;
+    flex-direction: row;
+  }
 }
 .example-info__price
 {
   padding-top: 11px;
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-left: 64px;
+  }
 }

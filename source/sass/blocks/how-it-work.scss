@@ -9,6 +9,9 @@
     margin-bottom: 0;
     margin-top: 47px;
   }
+  @media (min-width: $desktop-width) {
+    margin-top: 41px;
+  }
 }
 
 .how-it-work__header {
@@ -40,6 +43,7 @@
 
   }
   @media (min-width: $desktop-width) {
-    column-gap: 80px;
+    padding-right: 0;
+    justify-content: flex-start;
   }
 }
