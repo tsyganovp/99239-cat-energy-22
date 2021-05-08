@@ -15,14 +15,13 @@
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     column-gap: 80px;
     flex-direction: row;
+    margin: 0 auto;
     margin-top: 83px;
-    margin-left: 110px;
-    margin-right: 110px;
   }
 }
-
 
 .articles__i {
   margin-top: 0;
@@ -50,6 +49,11 @@
   }
 }
 
+.articles__i--slim {
+  @media (min-width:$desktop-width) {
+    margin-left: 110px;
+  }
+}
 .articles__i--pro {
   @media (min-width: $tablet-width) {
     padding: 77px 27px 57px 51px;
@@ -135,6 +139,9 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 52px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: 13px;
   }
 }
 
