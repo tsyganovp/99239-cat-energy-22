@@ -59,10 +59,10 @@
 
   @media (min-width: $desktop-width) {
     box-sizing: border-box;
+    padding: 0;
     padding-right: 86px;
     width: 42%;
     margin-left: 20px;
-    padding: 0;
     height: fit-content;
   }
 }

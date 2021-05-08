@@ -8,6 +8,9 @@
     padding-top: 56px;
     flex-direction: row;
   }
+  @media (min-width: $desktop-width) {
+    padding-top: 60px;
+  }
 }
 
 .page-footer__logo {
