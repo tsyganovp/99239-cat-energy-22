@@ -52,7 +52,7 @@
 
 .articles__i--pro {
   @media (min-width: $tablet-width) {
-    padding: 77px 52px 57px 51px;
+    padding: 77px 27px 57px 51px;
     margin-bottom: 0;
   }
 
@@ -132,6 +132,9 @@
   margin-left: 0;
   margin-left: -6px;
   margin-top: 14px;
+  @media (min-width: $tablet-width) {
+    margin-top: 52px;
+  }
 }
 
 .articles__image {
@@ -149,6 +152,10 @@
 }
 
 .articles__image--pro {
+  @media (min-width: $tablet-width) {
+    width: 270px;
+    height: 112px;
+  }
   @media (min-width: $desktop-width) {
 
     width: 134px;
@@ -182,10 +189,11 @@
 }
 
 .articles-text--pro {
-  margin-top: 28px;
+  margin-top: 25px;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 72px;
+    margin-bottom: 52px;
+
   }
 
   @media (min-width: $desktop-width) {

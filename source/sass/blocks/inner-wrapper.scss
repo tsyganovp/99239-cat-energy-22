@@ -1,0 +1,8 @@
+.inner-wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

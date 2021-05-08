@@ -10,9 +10,8 @@
   }
   @media  (min-width: $desktop-width)
   {
-    margin-top: 0px;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin: 0 auto;
+    max-width: 1440px;
   }
 }
 

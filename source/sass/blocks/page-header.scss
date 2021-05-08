@@ -1,10 +1,13 @@
 .page-header {
-  display: flex;
-  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 52px;
 
   @media (min-width: $tablet-width) {
     align-items: center;
-
+    margin: 0;
+    margin-top: 33px;
   }
 
   @media (min-width: $desktop-width) {
@@ -28,7 +31,6 @@
   @media (min-width: $tablet-width) {
     margin: 0;
     padding: 0;
-    margin-top: 6px;
     width: min-content;
   }
 

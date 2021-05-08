@@ -3,7 +3,7 @@
   margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     padding-top: 81px;
     background: linear-gradient($c-white 50%, $c-another-white 50%);
