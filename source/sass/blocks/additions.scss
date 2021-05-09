@@ -7,6 +7,15 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 70px;
+    margin-bottom: 77px;
+    padding-left: 37px;
+    padding-left: 37px;
+    font-size: 36px;
+    line-height: 1;
+  }
 }
 
 .additions__link {
@@ -15,11 +24,24 @@
   font-weight: 400;
   color: $c-white;
   text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    width: 30%;
+  }
 }
 
 .additions__item {
   padding-top: 12px;
   padding-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 38px;
+    padding-bottom: 25px;
+  }
 }
 
 .additions__item--promo {
@@ -33,9 +55,29 @@
   background: url("../../img/catalog/gift-promo-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-top: 58px;
+    padding-bottom: 56px;
+    padding-left: 79px;
+    padding-right: 110px;
+
+  }
 }
 
 .additions__gift-image {
   text-align: center;
-  margin-bottom:47px;
+  margin-bottom: 47px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+  }
+}
+.additions__button {
+  @media (min-width: $tablet-width) {
+    margin-top: 25px;
+    flex: 1 0 100%;
+  }
 }

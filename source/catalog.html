@@ -9,24 +9,31 @@
 </head>
 
 <body class="page__body wrapper">
-  <header class="page-header wrapper">
-    <div class="page-header__logo">
-      <a class="page-header__link"><img src="img/header/mobile-logo-text.svg" alt="Логотип" /></a>
+  <header class="page-header">
+    <div class="inner-wrapper inner-wrapper--header">
+      <div class="page-header__logo-block">
+        <div class="page-header__logo">
+          <a class="page-header__link"><img src="img/header/mobile-logo-text.svg" alt="Логотип" /></a>
+        </div>
+
+        <button type="button" class="main-nav__toogle" aria-label="Открыть меню"><img src="img/header/cross.svg"
+            alt="Закрыть меню" width="18" height="18"></button>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--current">
+            <a class="main-nav__link" href="#">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="form.html">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="main-nav wrapper">
-      <ul class="main-nav__list">
-        <li class="main-nav__item main-nav__item--current">
-          <a class="main-nav__link" href="#">Главная</a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="form.html">Подбор программы</a>
-        </li>
-      </ul>
-      <button type="button" class="main-nav__toogle" aria-label="Открыть меню"></button>
-    </nav>
   </header>
 
   <main class="page__main page-main">
@@ -34,7 +41,7 @@
     <section class="catalog wrapper">
       <ul class="catalog__list">
         <li class="catalog__item">
-          <img src="img/catalog/energy-pro-500-chicken.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
+          <img src="img/catalog/energy-pro-500-chicken.png" width="68" height="86" alt="Товар Cat Energy Pro 500"
             class="catalog__image" />
 
           <div class="catalog-block__table catalog-table">
@@ -59,8 +66,8 @@
           <a href="#" class="button catalog__button" aria-label="Заказать">Заказать</a>
         </li>
         <li class="catalog__item">
-          <img src="img/catalog/energy-pro-1000-chicken.jpg" width="84" height="101" alt="Товар Cat Energy Pro 500"
-            class="catalog__image" />
+          <img src="img/catalog/energy-pro-1000-chicken.png" width="84" height="101" alt="Товар Cat Energy Pro 500"
+            class="catalog__image catalog__image--pro" />
 
           <div class="catalog-block__table catalog-table">
             <h2 class="catalog-table__header">
@@ -85,7 +92,7 @@
         </li>
 
         <li class="catalog__item">
-          <img src="img/catalog/energy-pro-500-fish.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
+          <img src="img/catalog/energy-pro-500-fish.png" width="68" height="86" alt="Товар Cat Energy Pro 500"
             class="catalog__image" />
 
           <div class="catalog-block__table catalog-table">
@@ -113,8 +120,8 @@
         </li>
 
         <li class="catalog__item">
-          <img src="img/catalog/energy-pro-1000-fish.jpg" width="84" height="101" alt="Товар Cat Energy Pro 1000"
-            class="catalog__image" />
+          <img src="img/catalog/energy-pro-1000-fish.png" width="84" height="101" alt="Товар Cat Energy Pro 1000"
+            class="catalog__image catalog__image--pro" />
 
           <div class="catalog-block__table catalog-table">
             <h2 class="catalog-table__header">
@@ -141,13 +148,11 @@
         </li>
 
         <li class="catalog__item">
-          <img src="img/catalog/energy-slim-500-buckwheat.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
+          <img src="img/catalog/energy-slim-500-buckwheat.png" width="68" height="86" alt="Товар Cat Energy Pro 500"
             class="catalog__image" />
 
           <div class="catalog-block__table catalog-table">
-            <h2 class="catalog-table__header"></h2>
-            Cat Energy slim 500 г
-
+            <h2 class="catalog-table__header">Cat Energy slim 500 г</h2>
 
             <div class="catalog-table__row">
               <p class="catalog-table__item catalog-table__item--name">Масса
@@ -169,8 +174,8 @@
         </li>
 
         <li class="catalog__item">
-          <img src="img/catalog/energy-slim-1000-buckwheat.jpg" width="84" height="101" alt="Товар Cat Energy Pro 1000"
-            class="catalog__image" />
+          <img src="img/catalog/energy-slim-1000-buckwheat.png" width="84" height="101" alt="Товар Cat Energy Pro 1000"
+            class="catalog__image catalog__image--pro" />
 
           <div class="catalog-block__table catalog-table">
             <h2 class="catalog-table__header">
@@ -197,7 +202,7 @@
         </li>
 
         <li class="catalog__item">
-          <img src="img/catalog/energy-pro-500-rice.jpg" width="68" height="86" alt="Товар Cat Energy Pro 500"
+          <img src="img/catalog/energy-pro-500-rice.png" width="68" height="86" alt="Товар Cat Energy Pro 500"
             class="catalog__image" />
 
           <div class="catalog-block__table catalog-table">
@@ -254,7 +259,7 @@
 
           <p class="additions-list__item catalog-table__item">5 литров<span class="additions-list__span"> 50 Р.</span>
           </p>
-          <a href="#" class="button catalog-block__button" aria-label="Заказать">Заказать</a>
+          <a href="#" class="button additions__button" aria-label="Заказать">Заказать</a>
         </li>
 
         <li class="additions__item">

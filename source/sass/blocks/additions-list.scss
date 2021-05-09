@@ -2,22 +2,33 @@
   margin: 0;
   padding: 0;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 75px;
+  }
 }
 
 .additions-list__header {
   margin-bottom: 12px;
 
   @media (min-width: $tablet-width) {
-    width: 50%;
+    flex: 0 0 50%;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1;
+
   }
 }
 
 .additions-list__item {
   margin-bottom: 12px;
+
   @media (min-width: $tablet-width) {
-    width: 50%;
+    text-align: end;
+    flex: 0 0 50%;
+    margin-top: 7px;
+    margin-bottom: 0;
   }
 }
-.additions-list__span {
-  margin-left: 141px;
-}
+
+.additions-list__span {}
