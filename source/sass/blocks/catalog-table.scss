@@ -1,8 +1,17 @@
 .catalog-table {
-  width: 70%;
+  text-align: left;
+  margin-bottom: 22px;
+  width: max-content;
+  flex-grow: 1;
+  display: block;
 }
 
 .catalog-table__header {
+  margin: 0;
+  width: max-content;
+  margin-bottom: 13px;
+  margin-left: 4px;
+  text-align: left;
   font-family: $ff-oswald;
   font-size: 16px;
   font-weight: 400;
@@ -12,9 +21,14 @@
 }
 
 .catalog-table__item {
+  margin: 0;
   font-family: $ff-arial;
   font-size: 12px;
   font-weight: 400;
   line-height: (16 / 12);
   color: $c-dark-grey;
+}
+
+.catalog-table__row {
+
 }

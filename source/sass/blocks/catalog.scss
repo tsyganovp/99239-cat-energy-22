@@ -11,9 +11,12 @@
 }
 
 .catalog__item {
+  column-gap: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 21px;
+  padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     width: 40%;
@@ -25,7 +28,9 @@
 }
 
 .catalog__image {
-  width: 20%;
+  padding-top: 13px;
+  padding-left: 38px;
+
 }
 
 .catalog__button {
