@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "fonts.scss";
+@import "blocks/wrapper.scss";
 @import "blocks/page.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/main-promo.scss";
@@ -9,8 +10,8 @@
 @import "blocks/example.scss";
 @import "blocks/example-info.scss";
 @import "blocks/slider-controls.scss";
-@import "blocks/map-contacts.scss";
 @import "blocks/academy-block.scss";
+@import "blocks/page-header.scss";
 @import "blocks/page-footer.scss";
 @import "blocks/form.scss";
 @import "blocks/cat-main.scss";
@@ -22,3 +23,8 @@
 @import "blocks/button.scss";
 @import "blocks/catalog-more.scss";
 @import "blocks/additions.scss";
+@import "blocks/additions-list.scss";
+@import "blocks/map.scss";
+@import "blocks/catalog.scss";
+@import "blocks/example-slider.scss";
+@import "blocks/inner-wrapper.scss";

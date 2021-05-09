@@ -1,0 +1,25 @@
+.wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    max-width: 1440px;
+
+  }
+}
+
+.wrapper--nav {
+  margin: 0;
+}
+
+.wrapper--main {
+  margin: 0;
+}

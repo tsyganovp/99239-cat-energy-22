@@ -9,6 +9,17 @@
 
   &:nth-child(2) {
     background-image: url("../img/how-it-work/tub.svg");
+
+    @media (min-width:$tablet-width) {
+      margin-left: 68px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin: 0;
+      margin-left: 31px;
+      margin-right: 32px;
+
+    }
   }
 
   &:nth-child(3) {
@@ -17,6 +28,34 @@
 
   &:nth-child(4) {
     background-image: url("../img/how-it-work/alarm.svg");
+
+    @media (min-width:$tablet-width) {
+      margin-left: 68px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin: 0;
+      margin-left: 31px;
+      margin-right: 47px;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+    padding-top: 115px;
+    padding-left: 0px;
+    padding-bottom: 130px;
+    width: 45%;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 110px;
+    padding-bottom: 85px;
+    width:246px;
+    margin: 0;
+    margin-left: 47px;
+    margin-right: 47px;
   }
 }
 
@@ -24,4 +63,15 @@
   margin: 0;
   padding-left: 80px;
   line-height: (18 / 14);
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: (24 / 16);
+    padding-left: 0px;
+    padding-right: 60px
+  }
+  @media (min-width: $desktop-width) {
+    padding-right: 0;
+  }
+
 }
