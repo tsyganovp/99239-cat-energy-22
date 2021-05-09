@@ -3,15 +3,21 @@
   padding: 0;
   list-style: none;
 }
+
 .additions-list__header {
-  @media  (min-width: $tablet-width)
-  {
+  margin-bottom: 12px;
+
+  @media (min-width: $tablet-width) {
     width: 50%;
   }
 }
+
 .additions-list__item {
-  @media  (min-width: $tablet-width)
-  {
+  margin-bottom: 12px;
+  @media (min-width: $tablet-width) {
     width: 50%;
   }
+}
+.additions-list__span {
+  margin-left: 141px;
 }

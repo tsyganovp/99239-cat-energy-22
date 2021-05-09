@@ -1,0 +1,31 @@
+.example-slider {
+  margin-top: 39px;
+  margin-bottom: 34px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 81px;
+    background: linear-gradient($c-white 50%, $c-another-white 50%);
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin-top: -91px;
+    background: none;
+  }
+}
+
+.example-slider__image {
+  width: 280px;
+  height: 235px;
+
+  &:nth-child(2) {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 600px;
+    height: 525px;
+  }
+}

@@ -3,32 +3,56 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
+    margin-left: 75px;
+    flex: 1 0 50%;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0;
+    z-index: 2;
+
   }
 }
 
 .main-nav__list {
   margin: 0;
-  display: block;
+  text-align: center;
   padding: 0;
   list-style: none;
 
   @media (min-width: $tablet-width) {
     display: flex;
+    justify-content: flex-end;
+
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: flex-end;
+    margin-right: 21px;
+
   }
 }
 
 .main-nav__item {
+
+  padding-top: 23px;
+  padding-bottom: 20px;
+
   @media (min-width: $tablet-width) {
-    margin-left: 34px;
+    padding: 0;
+    margin-right: 36px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 37px;
+    margin: 0;
+    margin-right: 34px;
+
   }
+
 }
 
 .main-nav__link {
@@ -39,12 +63,23 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: (24 / 18);
+    font-weight: 400;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: (30 / 20);
+    justify-content: flex-end;
+    color: $c-white;
+  }
 }
 
 .main-nav__toogle {
-  position: absolute;
-  top: 6%;
-  right: 1%;
+  padding: 0;
   width: fit-content;
   background: white;
   border: none;

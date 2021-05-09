@@ -1,6 +1,14 @@
 .slider-controls {
+  padding-top: 28px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    padding-top: 6px;
+    padding-bottom: 65px;
+  }
 }
 
 .slider-controls__before-button,
@@ -11,4 +19,22 @@
   text-transform: uppercase;
   color: $c-black;
   line-height: (20 / 16);
+  border: none;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: (30 / 20);
+  }
+}
+
+.slider-controls__bar {
+  width: 38%;
+
+  @media (min-width: $tablet-width) {
+    width: 77%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 80%;
+  }
 }
