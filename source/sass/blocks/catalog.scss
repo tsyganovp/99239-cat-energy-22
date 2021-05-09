@@ -11,12 +11,12 @@
 }
 
 .catalog__item {
-  column-gap: 30px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-top: 21px;
-  padding-bottom: 20px;
+  padding-top: 22px;
+  padding-bottom: 24px;
 
   @media (min-width: $tablet-width) {
     width: 40%;
@@ -24,15 +24,24 @@
 }
 
 .catalog__item--more {
-  background-color: $c-grey-background;
+  display: block;
+  text-align: center;
+  padding-top: 83px;
+  padding-bottom: 25px;
 }
 
+
 .catalog__image {
-  padding-top: 13px;
-  padding-left: 38px;
+  margin-top: 13px;
+  object-fit: contain;
+  object-position: center;
+  flex: 0 0 140px;
 
 }
 
 .catalog__button {
-  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  flex: 0 0 100%;
 }
